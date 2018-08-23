@@ -86,7 +86,8 @@ li.toys{
     height: 300px;
 }
 .sale-products{
-    width: 70%;
+    width: 50%;
+    text-align: center;
 }
 
 .buy-now{
@@ -361,6 +362,7 @@ hr {
     width: 60%;
 }
 
+
 a {
     padding: 30px;
     font-family: Arial, Helvetica, sans-serif;
@@ -454,7 +456,7 @@ a:active {
        margin-left: 1px;
     }
     hr{
-        width: 90%;
+        width: 20%;
     }
     .sick {
         width: 50%;
@@ -476,4 +478,51 @@ a:active {
     .ad{
         display: none;
     }
+}
+@media screen and (max-width: 1024px) {
+    .my-nav{
+        display: block;
+        margin: -30px;
+       text-align: left;
+       margin-left: 1px;
+    }
+    hr{
+        width: 20%;
+    }
+    .sick {
+        width: 50%;
+        padding-left: 25%;
+    }
+    
+    .col-3{
+        width:100%;
+    }
+    .col-2{
+        width: 100%;
+    }
+    .col-8{
+     width: 100%;
+    }
+    .advert-pic{
+        display: none;
+    }
+    .ad{
+        display: none;
+    }
+    .store{
+        float: left;
+    }
+    .products{
+        line-height: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        font-size:0.7em;
+        color: #141414 ; 
+    }
+    .sale-products{
+        width: 50%;
+        text-align: center;
+    }
+    
+    
 }
