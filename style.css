@@ -3,7 +3,7 @@ body{
 }
 .ad{
     height: 400px;
-    width: 225px;
+    width:240px;
 }
 ul.b{
  font-size:0.6em;
@@ -77,7 +77,7 @@ li.toys{
 .container2{
     width: 1050px;
     border: 2px solid royalblue; 
-
+    margin: 0 0 0 50px;
 }
 .list{
     color: #141414;
@@ -480,6 +480,11 @@ a:active {
     }
 }
 @media screen and (max-width: 1024px) {
+    .container2{
+        width: 100%;
+        border: 2px solid royalblue; 
+        margin: 0 0 0 50px;
+    }
     .my-nav{
         display: block;
         margin: -30px;
