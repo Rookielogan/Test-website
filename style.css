@@ -71,7 +71,8 @@ li.toys{
 .container{
     width: 1050px;
     border: 2px solid royalblue; 
-    margin: auto;
+    margin:0% auto;
+    display: block;
 
 }
 .container2{
@@ -109,7 +110,7 @@ li.toys{
     border: 1px solid rgb(206, 203, 203);
     height: 320px;
     width: 230px;
-    display: inline-block;
+    display:inline-block;
 }
 
 
@@ -343,17 +344,20 @@ h2 {
     color: royalblue;
 }
 h3 {
-  
+    padding-left: 5px;
+    margin-left: 5px;
     font-family: Arial, Helvetica, sans-serif;
     color: royalblue;
 }
 h4 {
-  
+    padding-left: 5px;
+    margin-left: 5px;
     font-family: Arial, Helvetica, sans-serif;
     color: red
 }
 .repairs {
-    padding-left: 95px;
+    padding-left: 5px;
+    margin-left: 5px;
     font-family: Arial, Helvetica, sans-serif;
     color: royalblue;
 }
@@ -528,6 +532,19 @@ a:active {
         width: 50%;
         text-align: center;
     }
+    .buy-now:hover .btn-wrapper{ 
+        height: 320px;
+        width: 230px;
+        display: block;
+       
+    }
     
+    
+    .buy-now:hover {
+        border: 1px solid rgb(206, 203, 203);
+        height: 320px;
+        width: 230px;
+        display: block;
+    }
     
 }
